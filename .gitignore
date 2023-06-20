@@ -2,6 +2,16 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+## Folder settings
+**/.DS_Store
+.DS_Store
+
+## Config file
+Config.xcconfig
+
+## Pods
+Pods
+
 ## User settings
 xcuserdata/
 
