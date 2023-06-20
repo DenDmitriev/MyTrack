@@ -33,7 +33,6 @@ class LocationManager: NSObject {
                 locationManager?.pausesLocationUpdatesAutomatically = !(isTracking ?? false)
             }
             .disposed(by: disposeBag)
-        //locationManager?.requestWhenInUseAuthorization()
         locationManager.requestAlwaysAuthorization()
         
         locationManager.requestLocation()

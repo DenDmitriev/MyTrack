@@ -13,23 +13,21 @@ class TrackCoordinator: Coordinator {
     var onFinishFlow: (() -> Void)?
     
     func start(with track: Track?) {
-        showTrackModule(with: track)
+        showTrackModule()
     }
     
     override func start() {
         showTrackModule()
     }
     
-    private func showTrackModule(with track: Track? = nil) {
-        guard let controller = UIStoryboard(name: "Track", bundle: nil).instantiateViewController(withIdentifier: "TrackViewController") as? TrackViewController else { return }
-        controller.onUser = { [weak self] in
+    private func showTrackModule() {
+//        guard let controller = UIStoryboard(name: "Track", bundle: nil).instantiateViewController(withIdentifier: "TrackViewController") as? TrackViewController else { return }
+        let controller = TrackBuilder.build()
+        controller.viewModel?.onUser = { [weak self] in
             self?.showUserModule()
         }
-        controller.onTracks = { [weak self] in
+        controller.viewModel?.onTracks = { [weak self] in
             self?.showTracksModule()
-        }
-        if let track = track {
-            controller.trackManager = TrackManager(track: track)
         }
         let rootController = UINavigationController(rootViewController: controller)
         setAsRoot(rootController)
