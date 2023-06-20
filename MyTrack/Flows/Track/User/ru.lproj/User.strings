@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Logout"; ObjectID = "rn7-3r-hmY"; */
+"rn7-3r-hmY.configuration.title" = "Выйти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rn7-3r-hmY"; */
+"rn7-3r-hmY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "To track"; ObjectID = "tlF-eY-XyG"; */
+"tlF-eY-XyG.configuration.title" = "К трекингу";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tlF-eY-XyG"; */
+"tlF-eY-XyG.normalTitle" = "Button";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "12 April 2022"; ObjectID = "3un-aC-xLu"; */
+"3un-aC-xLu.text" = "12 April 2022";
+
+/* Class = "UILabel"; text = "distance"; ObjectID = "9Q0-0R-CfQ"; */
+"9Q0-0R-CfQ.text" = "дистанция";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "eeh-yJ-gj6"; */
+"eeh-yJ-gj6.text" = "время";
+
+/* Class = "UILabel"; text = "23:45"; ObjectID = "maJ-qa-Y9h"; */
+"maJ-qa-Y9h.text" = "23:45";
+
+/* Class = "UILabel"; text = "35"; ObjectID = "oxP-Xa-CkW"; */
+"oxP-Xa-CkW.text" = "35";
