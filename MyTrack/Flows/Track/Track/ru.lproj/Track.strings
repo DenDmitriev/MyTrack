@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "32t-bL-Dcf"; */
+"32t-bL-Dcf.text" = "00:00";
+
+/* Class = "UIButton"; configuration.title = "START"; ObjectID = "7XQ-7s-ogB"; */
+"7XQ-7s-ogB.configuration.title" = "СТАРТ";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "7XQ-7s-ogB"; */
+"7XQ-7s-ogB.normalTitle" = "СТАРТ";
+
+/* Class = "UISegmentedControl"; CSi-ex-F9S.segmentTitles[0] = "Walk 🚶‍♂️"; ObjectID = "CSi-ex-F9S"; */
+"CSi-ex-F9S.segmentTitles[0]" = "Прогулка 🚶‍♂️";
+
+/* Class = "UISegmentedControl"; CSi-ex-F9S.segmentTitles[1] = "Run 🏃‍♀️"; ObjectID = "CSi-ex-F9S"; */
+"CSi-ex-F9S.segmentTitles[1]" = "Бег 🏃‍♀️";
+
+/* Class = "UISegmentedControl"; CSi-ex-F9S.segmentTitles[2] = "Bicycle 🚴‍♂️"; ObjectID = "CSi-ex-F9S"; */
+"CSi-ex-F9S.segmentTitles[2]" = "Велосипед 🚴‍♂️";
+
+/* Class = "UILabel"; text = "Speed"; ObjectID = "Cs3-kr-nJH"; */
+"Cs3-kr-nJH.text" = "Скорость";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "JQB-yg-SoT"; */
+"JQB-yg-SoT.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WxW-be-cis"; */
+"WxW-be-cis.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "cst-KP-zfX"; */
+"cst-KP-zfX.text" = "Время";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "oF0-HW-9KX"; */
+"oF0-HW-9KX.text" = "0";
+
+/* Class = "UILabel"; text = "Track"; ObjectID = "sDo-xl-ZBd"; */
+"sDo-xl-ZBd.text" = "Трек";

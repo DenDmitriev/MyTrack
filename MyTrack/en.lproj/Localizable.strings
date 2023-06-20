@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  MyTrack
+
+  Created by Denis Dmitriev on 04.02.2023.
+  
+*/
+
+//Some buttons
+"Start" = "START";
+"Finish" = "FINISH";
+
+/*Unit format*/
+"m/s" = "m/s";
+
+"Run";
+"Walk";
+"Bicycle";
+
+"Your Tracks";
+
+"Profile";
+"To track";
+"Logout";
+
+"Login";
+"Registration";
+"Recovery";
