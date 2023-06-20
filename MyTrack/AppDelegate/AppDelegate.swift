@@ -7,7 +7,6 @@
 
 import UIKit
 import GoogleMaps
-//import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
