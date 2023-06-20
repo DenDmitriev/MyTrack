@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "5vN-hE-juo"; */
+"5vN-hE-juo.placeholder" = "Пароль";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "70Y-sX-HcI"; */
+"70Y-sX-HcI.configuration.title" = "Авторизация";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "70Y-sX-HcI"; */
+"70Y-sX-HcI.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "7bq-JL-hUR"; */
+"7bq-JL-hUR.placeholder" = "Логин";
+
+/* Class = "UILabel"; text = "MyTrack"; ObjectID = "GbM-HN-OzA"; */
+"GbM-HN-OzA.text" = "MyTrack";
+
+/* Class = "UILabel"; text = "Restore password"; ObjectID = "OdJ-EF-mYj"; */
+"OdJ-EF-mYj.text" = "Востановить пароль";
+
+/* Class = "UIButton"; configuration.title = "Restore"; ObjectID = "WtY-Ny-YJL"; */
+"WtY-Ny-YJL.configuration.title" = "Востановление";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WtY-Ny-YJL"; */
+"WtY-Ny-YJL.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "bJD-Hv-zjV"; */
+"bJD-Hv-zjV.placeholder" = "Логин";
+
+/* Class = "UIButton"; configuration.title = "Registration"; ObjectID = "u2h-1C-YDP"; */
+"u2h-1C-YDP.configuration.title" = "Регистрация";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u2h-1C-YDP"; */
+"u2h-1C-YDP.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Recover"; ObjectID = "vM2-E7-D3h"; */
+"vM2-E7-D3h.configuration.title" = "Востановление";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vM2-E7-D3h"; */
+"vM2-E7-D3h.normalTitle" = "Button";
