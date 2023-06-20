@@ -4,11 +4,11 @@
 ![Shot](https://github.com/DenDmitriev/MyTrack/assets/65191747/7fb86231-2bd7-4912-b588-ee9678f16d99)
 
 # Начало
-Я хотел научится работать с картой, получать координаты и обрабатывать их. Попытался использовать большинство возможных функций [Google Maps SDK](https://developers.google.com/maps/documentation/ios-sdk/overview?hl=ru).
-  - Рисование и окрашивание сплайна
-  - установка маркера на картк
-  - перемещение камеры на карте
-  - обрабатывает получаемые данные и показывать их в понятном виде
+Я хотел научится работать с картой, получать координаты и обрабатывать их. Попытаться реализовать большинство возможных функций [Google Maps SDK](https://developers.google.com/maps/documentation/ios-sdk/overview?hl=ru):
+  - рисование и окрашивание сплайна;
+  - установка маркера на картк;
+  - перемещение камеры на карте;
+  - обрабатывает получаемые данные и показывать их в понятном виде.
 
 # Содержание
 - [Возможности](#возможности)
@@ -31,18 +31,26 @@
 
 ## UIKit
 Интерфейс приложения реализован классическим способом. 
-За координацию контроллеров отвечает Coordinator. 
-У каждого flow есть свой storyboard. Передаются данные между контроллерами через замыкание.
+За координацию контроллеров отвечает Coordinator. У каждого flow есть свой storyboard. Передаются данные между контроллерами через замыкание.
+https://github.com/DenDmitriev/MyTrack/blob/1e961673b4d2e93221716e2cc1aea562ceee5db3/MyTrack/Flows/Track/TrackCoordinator.swift#L23-L37
 
 ## Google Maps SDK
-Я хотел научиться работать с Google Maps API. поэтому
+Показ карты на экране и навигацию по нему осуществляет Google Maps SDK. Код начальной настройки.
+https://github.com/DenDmitriev/MyTrack/blob/1e961673b4d2e93221716e2cc1aea562ceee5db3/MyTrack/Flows/Track/Track/TrackViewController.swift#L107-L115
+
+Создание сплайна осуществляется следующей функцией
+https://github.com/DenDmitriev/MyTrack/blob/1e961673b4d2e93221716e2cc1aea562ceee5db3/MyTrack/Flows/Track/Track/TrackViewController.swift#L312-L326
+
+Установка маркера на карту
+https://github.com/DenDmitriev/MyTrack/blob/1e961673b4d2e93221716e2cc1aea562ceee5db3/MyTrack/Flows/Track/Track/TrackViewController.swift#L117-L122
 
 ## RealmSwift
-Хранения данных точек локации трека
+Хранения треков пользователя и точек локаций в нем
+https://github.com/DenDmitriev/MyTrack/blob/1e961673b4d2e93221716e2cc1aea562ceee5db3/MyTrack/Model/Track.swift#L11-L16
 
 ## RxSwift
- - Обозреватель для обновления данных трека
- - Заполнение полей логина и пароля
+ - Подписки для обновления данных трека
+ - Подписки для заполнение полей логина и пароля
 
 ![Auth](https://github.com/DenDmitriev/MyTrack/assets/65191747/300a2d78-3fac-4b79-8d32-e5780cf12508)
 
