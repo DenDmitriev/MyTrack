@@ -10,6 +10,8 @@
 		1A43F02FF4409703FC37BCCC /* Pods_MyTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9CBC89959173A736996980 /* Pods_MyTrack.framework */; };
 		9503784B2A41EA1400DDC848 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9503784D2A41EA1400DDC848 /* Auth.storyboard */; };
 		950378522A41EBB000DDC848 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950378542A41EBB000DDC848 /* User.storyboard */; };
+		950378602A42252B00DDC848 /* TrackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9503785F2A42252B00DDC848 /* TrackViewModel.swift */; };
+		950378632A422F6400DDC848 /* TrackBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950378622A422F6400DDC848 /* TrackBuilder.swift */; };
 		9504B379298E543B00246405 /* TrackCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9504B37B298E543B00246405 /* TrackCollectionViewCell.xib */; };
 		95195543298D66D50061F92D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95195542298D66D50061F92D /* Session.swift */; };
 		95195547298E51090061F92D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95195549298E51090061F92D /* Localizable.strings */; };
@@ -54,6 +56,8 @@
 		950378582A41EBB800DDC848 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/User.strings; sourceTree = "<group>"; };
 		9503785A2A41EC3900DDC848 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Track.strings; sourceTree = "<group>"; };
 		9503785C2A41EC7C00DDC848 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Track.strings; sourceTree = "<group>"; };
+		9503785F2A42252B00DDC848 /* TrackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackViewModel.swift; path = "../../../../../../../../../../.Trash/MyTrack 17.52.30/MyTrack/TrackViewModel.swift"; sourceTree = "<group>"; };
+		950378622A422F6400DDC848 /* TrackBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackBuilder.swift; sourceTree = "<group>"; };
 		9504B37A298E543B00246405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TrackCollectionViewCell.xib; sourceTree = "<group>"; };
 		9504B37D298E544500246405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TrackCollectionViewCell.strings; sourceTree = "<group>"; };
 		9504B37F298E544600246405 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TrackCollectionViewCell.strings; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				956CE43429884A33005ACF42 /* Track.storyboard */,
-				956CE43229884A33005ACF42 /* TrackViewController.swift */,
+				950378612A422F5400DDC848 /* Builder */,
+				9503785D2A42250E00DDC848 /* View */,
+				9503785E2A42251800DDC848 /* ViewModel */,
 			);
 			path = Track;
 			sourceTree = "<group>";
@@ -191,6 +197,30 @@
 				952319EA2995174400A50B61 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9503785D2A42250E00DDC848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				956CE43229884A33005ACF42 /* TrackViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9503785E2A42251800DDC848 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9503785F2A42252B00DDC848 /* TrackViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		950378612A422F5400DDC848 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				950378622A422F6400DDC848 /* TrackBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		9509372E29900CAF001E4EA5 /* Tracks */ = {
@@ -464,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				956CE43329884A33005ACF42 /* TrackViewController.swift in Sources */,
+				950378602A42252B00DDC848 /* TrackViewModel.swift in Sources */,
 				952319EF2995196A00A50B61 /* TrackCoordinator.swift in Sources */,
 				956CE42F29884A33005ACF42 /* AppDelegate.swift in Sources */,
 				95FE722E298C379800F7C9EA /* TrackCollectionViewController.swift in Sources */,
@@ -479,6 +510,7 @@
 				952319C429950CDB00A50B61 /* Coordinator.swift in Sources */,
 				95DD29AA298EEDC200A11931 /* GMSStyleSpanExtension.swift in Sources */,
 				95195543298D66D50061F92D /* Session.swift in Sources */,
+				950378632A422F6400DDC848 /* TrackBuilder.swift in Sources */,
 				95BC37512997EB41006EB810 /* AppError.swift in Sources */,
 				952319ED299517CC00A50B61 /* ApplicationCoordinator.swift in Sources */,
 				95FE7231298C37AA00F7C9EA /* TrackCollectionViewCell.swift in Sources */,

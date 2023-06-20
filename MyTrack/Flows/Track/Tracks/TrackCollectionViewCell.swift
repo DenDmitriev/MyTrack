@@ -20,7 +20,6 @@ class TrackCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
         configure()
     }
     
@@ -39,7 +38,6 @@ class TrackCollectionViewCell: UICollectionViewCell {
         
         mapView.bounds = self.bounds
         let bounds = GMSCoordinateBounds(path: routePath)
-        //self.mapView.cameraTargetBounds = bounds //ограничить границы
         self.mapView.settings.scrollGestures = false
         self.mapView.settings.tiltGestures = false
         self.mapView.settings.zoomGestures = false

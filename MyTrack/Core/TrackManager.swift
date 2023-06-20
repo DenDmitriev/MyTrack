@@ -69,10 +69,8 @@ class TrackManager {
             }
         }
         let roundedSpeed = (speed * 10).rounded() / 10
-        
-        //return "\(roundedSpeed)" + NSLocalizedString("m/s", comment: "")
-        //return NSLocalizedString("m/s", comment: "Unit format")
         let stringSpeed = String(roundedSpeed) + " " + NSLocalizedString("m/s", comment: "Unit format")
+        
         return stringSpeed
     }
     
